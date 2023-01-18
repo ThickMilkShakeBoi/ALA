@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <article id="logo-container">
+            <a id="logo-link" href="index.html"><img id="logo" src="./images/Logo Desktop.png"></a>
+        </article>
+        <nav id="nav">
+            <a class="nav-link" href="games.html"><p>Games</p></a>
+            <a class="nav-link" href="about.html">Over Ons</a>
+            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link" href="merch.html">Merch</a>
+        </nav>
+    </header>
+    <Main id="mainContact">
+        <section class="grid-container1">
+            <div id="grid-item1" class="flipcard">
+                <div class="flipcard-inner">
+                  <div class="flipcard-front">
+                    <img class="img1" src="images/Artboard.png" alt="Avatar" style="border-style: none; border-radius: 10px; width:300px;height:140px;">
+                  </div>
+                  <div class="flipcard-back">
+                    <h1>Tim</h1>
+                    <p>Architect & Engineer</p>
+                    <p>Info:<br> Expert on fixing issues on the website.<br> The one who will most likely answer your requests for help.</p>
+                  </div>
+                </div>
+              </div>
+              <div id="grid-item2" class="flipcard">
+                <div class="flipcard-inner">
+                  <div class="flipcard-front">
+                    <img class="img2" src="images/Artboard.png" alt="Avatar" style="border-style: none; border-radius: 10px; width:300px;height:140px;">
+                  </div>
+                  <div class="flipcard-back">
+                    <h1>Ilya</h1>
+                    <p>Architect & Engineer</p>
+                    <p>Info:<br> Our technological miracle. <br> Knows everything about the webpage's code and what does what.</p>
+                  </div>
+                </div>
+              </div>
+              <div id="grid-item3" class="flipcard">
+                <div class="flipcard-inner">
+                  <div class="flipcard-front">
+                    <img class="img3" src="images/Artboard.png" alt="Avatar" style="border-style: none; border-radius: 10px; width:300px;height: 140px;">
+                  </div>
+                  <div class="flipcard-back">
+                    <h1>Pascal</h1>
+                    <p>Architect & Engineer</p>
+                    <p>Info:<br> Lots of experience when it comes to interfacing and user friendliness.<br> In charge of human resources.</p>
+                  </div>
+                </div>
+              </div>
+              <div id="grid-item4" class="flipcard">
+                <div class="flipcard-inner">
+                  <div class="flipcard-front">
+                    <img class="img4" src="images/Artboard.png" alt="Avatar" style="border-style: none; border-radius: 10px; width:300px;height:140px;">
+                  </div>
+                  <div class="flipcard-back">
+                    <h1>Stefan</h1>
+                    <p>Architect & Engineer</p>
+                    <p>Info:<br> Our charismatic salesman. <br> In charge of relations with other companies and businesses.</p>
+                  </div>
+                </div>
+              </div>
+          </section>
+          <div class="topnav">
+            <a id="logo-link" href="index.html"><img id="logo2" src="./images/Logo Desktop.png"></a>
+          <div id="myLinks">
+            <a href="#Games">Games</a>
+            <a href="#Over ons">Over ons</a>
+            <a href="#Merch">About</a>
+            <a href="#Contact">Contact</a>
+          </div>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+        
+        <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+        </script>
+          <section class="grid-container4">
+              <div class="flipcard5">
+                <div class="flipcard-inner1">
+                  <div class="flipcard-front2">
+                    <img class="img1" src="images/Artboard.png" alt="Avatar" style="border-style: none; border-radius: 10px; width:300px;height:140px;">
+                  </div>
+                  <div class="flipcard-back2">
+                    <h1>Tim</h1>
+                    <p>Architect & Engineer</p>
+                    <p>Info:<br> Hotmail: 1234@hotmail.com<br>Phone: 1234567890<br>Social media: @11234woop</p>
+                  </div>
+                </div>
+              </div>
+              <div class="flipcard6">
+                <div class="flipcard-inner2">
+                  <div class="flipcard-front2">
+                    <img class="img2" src="images/Artboard.png" alt="Avatar" style="border-style: none; border-radius: 10px; width:300px;height:140px;">
+                  </div>
+                  <div class="flipcard-back2">
+                    <h1>Ilya</h1>
+                    <p>Architect & Engineer</p>
+                    <p>Info:<br> Hotmail: 1234@hotmail.com<br>Phone: 1234567890<br>Social media: @11234woop</p>
+                  </div>
+                </div>
+              </div>
+              <div class="flipcard7">
+                <div class="flipcard-inner3">
+                  <div class="flipcard-front2">
+                    <img class="img3" src="images/Artboard.png" alt="Avatar" style="border-style: none; border-radius: 10px; width:300px;height: 140px;">
+                  </div>
+                  <div class="flipcard-back2">
+                    <h1>Pascal</h1>
+                    <p>Architect & Engineer</p>
+                    <p>Info:<br> Hotmail: 1234@hotmail.com<br>Phone: 1234567890<br>Social media: @11234woop</p>
+                  </div>
+                </div>
+              </div>
+              <div class="flipcard8">
+                <div class="flipcard-inner4">
+                  <div class="flipcard-front2">
+                    <img class="img4" src="images/Artboard.png" alt="Avatar" style="border-style: none; border-radius: 10px; width:300px;height:140px;">
+                  </div>
+                  <div class="flipcard-back2">
+                    <h1>Stefan</h1>
+                    <p>Architect & Engineer</p>
+                    <p>Info:<br> Hotmail: 1234@hotmail.com<br>Phone: 1234567890<br>Social media: @11234woop</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+    </Main>
+    <footer>
+
+    </footer>
+</body>
+</html>
